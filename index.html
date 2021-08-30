@@ -4,10 +4,6 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-            rel="stylesheet"
-        />
         <link rel="stylesheet" href="assets/css/style.css" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -16,26 +12,30 @@
             crossorigin="anonymous"
         />
         <link
+            href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
             rel="stylesheet"
             href="assets/css/fontawesome-free-5.15.4-web/css/all.css"
         />
         <link rel="shortcut icon" type="image/png" href="assets/img/Logo.svg" />
         <title>Unboxed Mindz</title>
     </head>
+
     <body>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <!-- NAVBAR -->
+        <nav class="nav-fixed navbar sticky-top navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img
                         src="assets/img/Logo.png"
                         alt="logo"
-                        width="50"
-                        class="d-inline-block align-text-center"
-                    />
-                    <span class="d-inline-block align-text-center">
-                        Unboxed Mindz
-                    </span>
+                        width="40"
+                        class="d-inline-block align-text-center h1"
+                    />Unboxed Mindz
                 </a>
+
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -51,7 +51,7 @@
                     class="collapse navbar-collapse"
                     id="navbarSupportedContent"
                 >
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a
                                 class="nav-link dropdown-toggle"
@@ -77,6 +77,8 @@
                                 </li>
                             </ul>
                         </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Home</a>
                         </li>
@@ -90,7 +92,10 @@
                             <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-primary" type="submit">
+                            <button
+                                class="button sheen btn-color btn-lg"
+                                type="submit"
+                            >
                                 Enroll Now
                             </button>
                         </li>
@@ -99,32 +104,34 @@
             </div>
         </nav>
 
-        <!-- HEADER SECTION -->
-        <header class="section-main u-margin-bottom-huge">
+        <!-- SECTION ONE-->
+        <header class="section-one u-margin-bottom-huge">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-7 pt-5">
                         <div class="u-margin-bottom">
                             <h1 class="h1">
-                                <span class="h1-main-blue"
+                                <span class="section-one-h1-blue"
                                     >Personal Finance </span
                                 >made easy for the
-                                <span class="h1-main-underline"
+                                <span class="section-one-h1-underline"
                                     >next generation</span
                                 >
                             </h1>
                         </div>
-                        <div class="u-margin-bottom">
+                        <div class="u-margin-bottom-small">
                             <h4 class="h4">
                                 The
-                                <span class="paragraph-main-rank">#1</span>
+                                <span class="section-one-paragraph-rank"
+                                    >#1</span
+                                >
                                 course in Financial Literacy for ages 8-20
                             </h4>
                         </div>
                         <div class="u-margin-bottom">
                             <h4 class="h4">
                                 Make your child
-                                <span class="paragraph-main-green"
+                                <span class="section-one-paragraph-green"
                                     >financially smarter</span
                                 >
                                 than 99% of kids their age
@@ -135,37 +142,33 @@
                                 <div class="col-sm-8">
                                     <button
                                         type="button"
-                                        class="btn btn-primary btn-lg"
+                                        class="button sheen btn-color btn-lg"
                                     >
                                         <i class="far fa-calendar-alt"></i> Book
                                         a free trial class
                                     </button>
                                 </div>
-                                <div class="col-sm-4 section-main-image-center">
-                                    <div class="section-main-note-image">
-                                        <img
-                                            class=""
-                                            src="assets/img/Notes.png"
-                                            alt="note"
-                                            width="150"
-                                        />
-                                    </div>
-                                    <div>
-                                        <img
-                                            class="section-main-coin-image"
-                                            src="assets/img/Coin.png"
-                                            alt="coin"
-                                            width="80"
-                                        />
-                                    </div>
+                                <div class="col-sm-4 section-one-image-center">
+                                    <img
+                                        class="section-one-note-image"
+                                        src="assets/img/Notes.png"
+                                        alt="note"
+                                        width="150"
+                                    />
+                                    <img
+                                        class="section-one-coin-image"
+                                        src="assets/img/Coin.png"
+                                        alt="coin"
+                                        width="100"
+                                    />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="section-main-image col-sm-5">
+                    <div class="section-one-image col-sm-5">
                         <img
-                            class="img-fluid float-end"
-                            src="assets/img/Boy.svg"
+                            class="img-fluid"
+                            src="assets/img/Boy-with-bg.svg"
                             alt="main-boy-image"
                         />
                     </div>
@@ -173,16 +176,14 @@
             </div>
         </header>
 
-        <!-- ABOUT SECTION -->
         <main>
-            <section class="section-about u-margin-bottom-huge">
+            <!-- SECTION TWO-->
+            <section class="section-two u-margin-bottom-huge">
                 <div class="container">
-                    <h1 class="text-center u-margin-bottom">
-                        Why Financial literacy for kids
-                    </h1>
+                    <h1 class="text-center">Why Financial literacy for kids</h1>
                     <div class="row">
                         <div class="col-sm-7">
-                            <div class="section-about-intro u-margin-bottom">
+                            <div class="section-two-intro u-margin-bottom">
                                 <div>
                                     <img
                                         src="assets/img/Quotation marks.png"
@@ -197,10 +198,10 @@
                                 </p>
                             </div>
                             <div>
-                                <div class="section-about-para u-margin-bottom">
+                                <div class="section-two-para u-margin-bottom">
                                     <p class="lead">
                                         According to a survey by S&P,
-                                        <span class="section-about-percent-span"
+                                        <span class="section-two-percent-span"
                                             >only 24%</span
                                         >
                                         of the indian population is financailly
@@ -218,15 +219,15 @@
                                         Behavioral researchers from Cambridge
                                         University encourage parents to start
                                         teaching their kids about money
-                                        <span class="section-about-thick-span"
+                                        <span class="section-two-thick-span"
                                             >as young as 3</span
                                         >
                                     </p>
                                 </div>
-                                <div class="u-margin-bottom-huge">
+                                <div>
                                     <button
                                         type="button"
-                                        class="btn btn-primary btn-lg"
+                                        class="button sheen btn-color btn-lg"
                                     >
                                         <i class="far fa-calendar-alt"></i> Book
                                         a free trial class
@@ -234,7 +235,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="section-two-image col-sm-5">
                             <img
                                 class="img-fluid"
                                 src="assets/img/Girl with background.svg"
@@ -244,8 +245,251 @@
                     </div>
                 </div>
             </section>
+
+            <!-- SECTION THREE -->
+            <section class="section-three u-margin-bottom-huge">
+                <div class="container-fluid">
+                    <h1 class="text-center">More than just an online class</h1>
+                    <div class="row u-margin-bottom">
+                        <div class="section-three-row-1-box">
+                            <div class="container">
+                                <div class="section-three-row-1-text">
+                                    <div class="text-container container-fluid">
+                                        <p class="text-center">
+                                            Our proprietary curriculum generates
+                                            <span>interactivity</span> and
+                                            <span>fun</span> in all our live
+                                            sessions!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div
+                            class="
+                                section-three-image-container
+                                u-margin-bottom-huge
+                            "
+                        >
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <figure class="figure">
+                                        <img
+                                            src="/assets/img/icon-habit.png"
+                                            class="figure-img"
+                                            alt="..."
+                                        />
+                                        <figcaption
+                                            class="figure-caption text-center"
+                                        >
+                                            Habit Building
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-sm-3">
+                                    <figure class="figure">
+                                        <img
+                                            src="/assets/img/icon-logic.png"
+                                            class="figure-img"
+                                            alt="..."
+                                        />
+                                        <figcaption
+                                            class="figure-caption text-center"
+                                        >
+                                            Logic
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-sm-3">
+                                    <figure class="figure">
+                                        <img
+                                            src="/assets/img/icon-thinking.png"
+                                            class="figure-img"
+                                            alt="..."
+                                        />
+                                        <figcaption
+                                            class="figure-caption text-center"
+                                        >
+                                            Creative Thinking
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-sm-3">
+                                    <figure class="figure">
+                                        <img
+                                            src="/assets/img/icon-skills.png"
+                                            class="figure-img"
+                                            alt="..."
+                                        />
+                                        <figcaption
+                                            class="figure-caption text-center"
+                                        >
+                                            Practical skills
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION FOUR -->
+            <section class="section-four u-margin-bottom-huge">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="u-margin-bottom">
+                                <h1 class="h1">Student & Parent Experiences</h1>
+                            </div>
+                            <div class="u-margin-bottom-small">
+                                <p class="lead">
+                                    Feedbacks from our students and their are an
+                                    integral part of Unboxed Mindz
+                                </p>
+                                <p class="lead">
+                                    Our constant endeavour to work on
+                                    suggestions has resulted in delivering
+                                    <span>
+                                        the best financial literacy course
+                                    </span>
+                                </p>
+                            </div>
+                            <div>
+                                <button
+                                    type="button"
+                                    class="button sheen btn-color btn-lg"
+                                >
+                                    <i class="far fa-calendar-alt"></i> Book a
+                                    free trial class
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 u-margin-top-huge">
+                            <div>
+                                <div class="wrapper">
+                                    <div class="carousel">
+                                        <div class="carousel__item">
+                                            <div class="carousel__item-body">
+                                                <p class="title">
+                                                    spouting whale
+                                                </p>
+                                                <p>Unicode: U+1F433</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel__item">
+                                            <div class="carousel__item-body">
+                                                <p class="title">whale</p>
+                                                <p>Unicode: U+1F40B</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel__item">
+                                            <div class="carousel__item-body">
+                                                <p class="title">dolphin</p>
+                                                <p>Unicode: U+1F42C</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel__item">
+                                            <div class="carousel__item-body">
+                                                <p class="title">fish</p>
+                                                <p>Unicode: U+1F41F</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel__item">
+                                            <div class="carousel__item-body">
+                                                <p class="title">
+                                                    tropical fish
+                                                </p>
+                                                <p>Unicode: U+1F420</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel__item">
+                                            <div class="carousel__item-body">
+                                                <p class="title">blowfish</p>
+                                                <p>Unicode: U+1F421</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel__item">
+                                            <div class="carousel__item-body">
+                                                <p class="title">shark</p>
+                                                <p>Unicode: U+1F988</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel__item">
+                                            <div class="carousel__item-body">
+                                                <p class="title">octopus</p>
+                                                <p>Unicode: U+1F419</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel__item">
+                                            <div class="carousel__item-body">
+                                                <p class="title">
+                                                    spiral shell
+                                                </p>
+                                                <p>Unicode: U+1F41A</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION FIVE -->
+            <section
+                class="section-five u-margin-top-huge u-margin-bottom-huge"
+            >
+                <div class="section-five-intro-container">
+                    <div class="container">
+                        <h1 class="text-center u-margin-bottom">
+                            Completely virtual, at the comfort of your home
+                        </h1>
+                        <div class="row">
+                            <h4 class="h4 text-center">
+                                Explore and choose from our Live classes
+                                catering to a wide range of age groups
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-five-button-container">
+                    <div class="container">
+                        <div class="d-grid gap-5 col-sm-3 mx-auto button-box">
+                            <button
+                                type="button"
+                                class="button sheen btn-color btn-lg"
+                            >
+                                <i class="far fa-calendar-alt"></i> Book a free
+                                trial class
+                            </button>
+                            <button
+                                type="button"
+                                class="button sheen btn-color btn-lg"
+                            >
+                                Learn More
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
+        <script>
+            const navbar = document.querySelector(".nav-fixed");
+            window.onscroll = () => {
+                if (window.scrollY > 30) {
+                    navbar.classList.add("nav-active");
+                } else {
+                    navbar.classList.remove("nav-active");
+                }
+            };
+        </script>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
