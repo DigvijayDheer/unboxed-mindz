@@ -147,7 +147,9 @@ nav .nav-fixed {
 .section-four h2,
 .section-five h2,
 .section-six h2,
-.section-seven h2 {
+.section-seven h2,
+.section-eight h2,
+.section-nine h2 {
     font-family: "Spartan", "sans-sarif";
     font-size: 2.9rem;
     font-weight: 700;
@@ -376,6 +378,12 @@ nav .nav-fixed {
 
 .section-six .section-six-button-container .button-box {
     padding-top: 6rem;
+}
+
+.section-eight table {
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    border: 0.2rem solid #000;
 }
 
 @media only screen and (max-width: 600px) {
