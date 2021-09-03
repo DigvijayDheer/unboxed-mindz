@@ -380,21 +380,28 @@ nav .nav-fixed {
     padding-top: 6rem;
 }
 
-/* ************************* */
-
 .section-seven {
     height: auto;
     padding: 5rem 0;
-    background-color: #97d5fc;
+    background-color: #c4f2ff;
+}
+
+.section-seven .card {
+    line-height: 1rem;
 }
 
 .section-seven .card {
     border: none;
     padding: 0.5rem;
     width: 100%;
-    height: auto;
+    height: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     border-radius: 1rem;
+}
+
+.section-seven .card .card-head {
+    border-bottom: 0.1rem solid #000;
+    margin-bottom: 1rem;
 }
 
 .section-seven .golden-card .top-tag,
@@ -405,11 +412,11 @@ nav .nav-fixed {
 }
 
 .section-seven .golden-card .top-tag {
-    background-color: #f7f78b;
+    background-color: #fff952;
 }
 
 .section-seven .diamond-card .top-tag {
-    background-color: #a7ffcd;
+    background-color: #2ecc70;
 }
 
 .section-seven .card .tier-title h4 {
@@ -419,22 +426,82 @@ nav .nav-fixed {
 }
 
 .section-seven .silver-card .card .tier-title h4 {
-    color: #3e56a3;
+    color: #1153ac;
 }
 
 .section-seven .golden-card .card .tier-title h4 {
-    color: #0acf60;
+    color: #4fc717;
 }
 
 .section-seven .diamond-card .card .tier-title h4 {
-    color: #ff891b;
+    color: #f1a603;
 }
 
 .section-seven .card .tier-discription p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
-/* **************************** */
+.section-seven .card .tier-discription .sessions {
+    color: #233cff;
+}
+
+.section-seven .card .card-discription h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.section-seven .card .card-discription h6 {
+    color: #fff;
+    max-width: fit-content;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.7rem;
+}
+
+.section-seven .golden-card .card .card-discription h6 {
+    background-color: #1153ac;
+}
+
+.section-seven .diamond-card .card .card-discription h6 {
+    background-color: #4fc717;
+}
+
+.section-seven .card .card-discription .card-para {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+}
+
+.section-seven .card .card-discription .details {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #f59417;
+}
+
+.section-seven .card .card-discription .price {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.section-seven .card .card-discription .price .price-blue-tag {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.1rem;
+    background-color: #233cff;
+    color: #fff;
+}
+
+.section-seven .card .card-discription .offer {
+    color: #5d17eb;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.section-seven .card .card-discription .offer-sub {
+    color: #333;
+    font-size: 0.65rem;
+    margin-left: 10rem;
+    margin-top: -1rem;
+}
 
 .section-eight table {
     font-size: 1.1rem;
@@ -471,5 +538,14 @@ nav .nav-fixed {
         .section-six-button-container
         .section-six-button-overlay-container {
         background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .section-seven .card .card-discription .price {
+        font-size: 0.8rem;
+    }
+
+    .section-seven .card .card-discription .price .price-blue-tag {
+        font-size: 0.5rem;
+        padding: 0.2rem 0.4rem;
     }
 }
