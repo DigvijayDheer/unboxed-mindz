@@ -145,7 +145,9 @@ nav .nav-fixed {
 .section-two h2,
 .section-three h2,
 .section-four h2,
-.section-five h2 {
+.section-five h2,
+.section-six h2,
+.section-seven h2 {
     font-family: "Spartan", "sans-sarif";
     font-size: 2.9rem;
     font-weight: 700;
@@ -208,13 +210,30 @@ nav .nav-fixed {
     width: 30%;
 }
 
-.section-four p span {
+.section-four .section-four-left-side-card-column .horizontal-card-image,
+.section-four .section-four-right-side-card-column .horizontal-card-image {
+    background-color: #000;
+    width: 5rem;
+    padding: 0.5rem;
+}
+
+.section-four .section-four-left-side-card-column .card,
+.section-four .section-four-right-side-card-column .card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.section-four .section-four-image-column img {
+    width: 100%;
+}
+
+.section-five p span {
     color: #04864a;
     font-weight: 600;
     border-bottom: 0.2rem solid rgb(197, 53, 0);
 }
 
-.section-four .slider-container {
+.section-five .slider-container {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -222,39 +241,39 @@ nav .nav-fixed {
     margin-top: 3.7rem;
 }
 
-.section-four .slider-container .left-slide .flowers {
+.section-five .slider-container .left-slide .flowers {
     background-color: #fd3555;
 }
 
-.section-four .slider-container .left-slide .snow {
+.section-five .slider-container .left-slide .snow {
     background-color: #2a86ba;
 }
 
-.section-four .slider-container .left-slide .castle {
+.section-five .slider-container .left-slide .castle {
     background-color: #252e33;
 }
 
-.section-four .slider-container .left-slide .eagle {
+.section-five .slider-container .left-slide .eagle {
     background-color: #fd972a;
 }
 
-.section-four .slider-container .right-slide .flowers {
+.section-five .slider-container .right-slide .flowers {
     background-color: #faadba;
 }
 
-.section-four .slider-container .right-slide .snow {
+.section-five .slider-container .right-slide .snow {
     background-color: #7fa8c0;
 }
 
-.section-four .slider-container .right-slide .castle {
+.section-five .slider-container .right-slide .castle {
     background-color: #363636;
 }
 
-.section-four .slider-container .right-slide .eagle {
+.section-five .slider-container .right-slide .eagle {
     background-color: #ffb866;
 }
 
-.section-four .slider-container .left-slide {
+.section-five .slider-container .left-slide {
     height: 100%;
     width: 35%;
     position: absolute;
@@ -263,7 +282,7 @@ nav .nav-fixed {
     transition: transform 0.5s ease-in-out;
 }
 
-.section-four .slider-container .left-slide div {
+.section-five .slider-container .left-slide div {
     height: 100%;
     width: 100%;
     display: flex;
@@ -273,11 +292,11 @@ nav .nav-fixed {
     color: #fff;
 }
 
-.section-four .slider-container .left-slide p {
+.section-five .slider-container .left-slide p {
     font-size: 1rem;
 }
 
-.section-four .slider-container .right-slide {
+.section-five .slider-container .right-slide {
     height: 100%;
     position: absolute;
     top: 0;
@@ -286,14 +305,14 @@ nav .nav-fixed {
     transition: transform 0.5s ease-in-out;
 }
 
-.section-four .slider-container .right-slide div {
+.section-five .slider-container .right-slide div {
     color: #fff;
     height: 100%;
     width: 100%;
     padding: 1rem;
 }
 
-.section-four .slider-container .right-slide p {
+.section-five .slider-container .right-slide p {
     font-size: 0.8rem;
     position: relative;
     top: 50%;
@@ -301,7 +320,7 @@ nav .nav-fixed {
     transform: translate(-50%, -50%);
 }
 
-.section-four .slider-container button {
+.section-five .slider-container button {
     background-color: #fff;
     border: none;
     color: #aaa;
@@ -310,34 +329,34 @@ nav .nav-fixed {
     padding: 0.5rem;
 }
 
-.section-four .slider-container button:hover {
+.section-five .slider-container button:hover {
     color: #222;
 }
 
-.section-four .slider-container button:focus {
+.section-five .slider-container button:focus {
     outline: none;
 }
 
-.section-four .slider-container .action-buttons button {
+.section-five .slider-container .action-buttons button {
     position: absolute;
     left: 35%;
     top: 50%;
     z-index: 100;
 }
 
-.section-four .slider-container .action-buttons .down-button {
+.section-five .slider-container .action-buttons .down-button {
     transform: translateX(-100%);
     border-top-left-radius: 0.3rem;
     border-bottom-left-radius: 0.3rem;
 }
 
-.section-four .slider-container .action-buttons .up-button {
+.section-five .slider-container .action-buttons .up-button {
     transform: translateY(-100%);
     border-top-right-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
 }
 
-.section-five .section-five-intro-container {
+.section-six .section-six-intro-container {
     width: 100%;
     height: auto;
     background-image: url(../images/boy-on-books.png);
@@ -346,16 +365,16 @@ nav .nav-fixed {
     background-size: contain;
 }
 
-.section-five .section-five-button-container {
+.section-six .section-six-button-container {
     width: 100%;
-    height: 20rem;
+    height: auto;
     background-image: url(../images/boy-with-laptop.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
 }
 
-.section-five .section-five-button-container .button-box {
+.section-six .section-six-button-container .button-box {
     padding-top: 6rem;
 }
 
@@ -373,7 +392,7 @@ nav .nav-fixed {
         margin-bottom: 4rem;
     }
 
-    .section-four .slider-container button {
+    .section-five .slider-container button {
         font-size: 0.7rem;
         padding: 0.3rem;
     }
