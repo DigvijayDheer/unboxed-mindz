@@ -74,7 +74,7 @@ button:focus::after {
 
 @keyframes sheen {
     100% {
-        transform: rotateZ(60deg) translate(1rem, -19rem);
+        transform: rotateZ(60deg) translate(1rem, -28rem);
     }
 }
 
@@ -361,7 +361,7 @@ nav .nav-fixed {
 .section-six .section-six-intro-container {
     width: 100%;
     height: auto;
-    background-image: url(../images/boy-on-books.png);
+    background-image: url(../images/boy-on-books.svg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
@@ -380,9 +380,69 @@ nav .nav-fixed {
     padding-top: 6rem;
 }
 
+/* ************************* */
+
+.section-seven {
+    height: auto;
+    padding: 5rem 0;
+    background-color: #97d5fc;
+}
+
+.section-seven .card {
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 1rem;
+}
+
+.section-seven .golden-card .top-tag,
+.section-seven .diamond-card .top-tag {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+}
+
+.section-seven .golden-card .top-tag {
+    background-color: #f7f78b;
+}
+
+.section-seven .diamond-card .top-tag {
+    background-color: #a7ffcd;
+}
+
+.section-seven .card .tier-title h4 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.section-seven .silver-card .card .tier-title h4 {
+    color: #3e56a3;
+}
+
+.section-seven .golden-card .card .tier-title h4 {
+    color: #0acf60;
+}
+
+.section-seven .diamond-card .card .tier-title h4 {
+    color: #ff891b;
+}
+
+.section-seven .card .tier-discription p {
+    font-size: 0.8rem;
+}
+
+/* **************************** */
+
 .section-eight table {
     font-size: 1.1rem;
     line-height: 2.5rem;
+}
+
+.section-nine h2 span {
+    font-style: italic;
 }
 
 @media only screen and (max-width: 600px) {
@@ -402,5 +462,14 @@ nav .nav-fixed {
     .section-five .slider-container button {
         font-size: 0.7rem;
         padding: 0.3rem;
+    }
+
+    .section-six
+        .section-six-intro-container
+        .section-six-intro-overlay-container,
+    .section-six
+        .section-six-button-container
+        .section-six-button-overlay-container {
+        background-color: rgba(255, 255, 255, 0.8);
     }
 }
