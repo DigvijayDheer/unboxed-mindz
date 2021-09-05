@@ -18,18 +18,6 @@ body {
 
 section {
     margin-bottom: 8rem;
-    animation: moveInBottom 1s ease-out;
-}
-
-@keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(5rem);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
 }
 
 button {
@@ -477,6 +465,14 @@ nav .nav-fixed {
     color: #f59417;
 }
 
+.section-seven .silver-card .card-discription .details {
+    margin-top: 3rem;
+}
+
+.section-seven .diamond-card .card-discription .details {
+    margin-top: 2rem;
+}
+
 .section-seven .card .card-discription .price {
     font-size: 1rem;
     font-weight: 500;
@@ -547,5 +543,13 @@ nav .nav-fixed {
     .section-seven .card .card-discription .price .price-blue-tag {
         font-size: 0.5rem;
         padding: 0.2rem 0.4rem;
+    }
+
+    .section-seven .silver-card .card-discription .details {
+        margin-top: 0rem;
+    }
+
+    .section-seven .diamond-card .card-discription .details {
+        margin-top: 0rem;
     }
 }
