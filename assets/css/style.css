@@ -152,7 +152,9 @@ nav .nav-fixed {
 .section-six h2,
 .section-seven h2,
 .section-eight h2,
-.section-nine h2 {
+.section-nine h2,
+.about-us-section-one h2,
+.about-us-section-two h2 {
     font-family: "Spartan", "sans-sarif";
     font-size: 2.9rem;
     font-weight: 700;
@@ -534,6 +536,39 @@ nav .nav-fixed {
     font-style: italic;
 }
 
+.about-us-section-one .card img {
+    width: 13rem;
+}
+
+.about-us-section-one .card {
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-section-one .card h5 {
+    font-weight: 700;
+}
+
+.about-us-section-two .about-us-section-two-intro {
+    background-image: linear-gradient(
+        90deg,
+        #97d9e1 0%,
+        #d9afd9 60%,
+        #d9afd9 80%,
+        #d6a6d6 100%
+    );
+    padding: 2rem 0;
+}
+
+.about-us-section-two .image-box {
+    padding-top: 2rem;
+}
+
+.about-us-section-two .icon-box {
+    margin: 1rem 3rem;
+}
+
 footer {
     border-top: 0.1rem solid #000;
     padding-top: 5rem;
@@ -630,6 +665,10 @@ footer p a {
 
     .section-seven .diamond-card .card-discription .details {
         margin-top: 0rem;
+    }
+
+    .about-us-section-two .icon-box {
+        margin: 1.5rem 0;
     }
 
     footer .nav-brand {
