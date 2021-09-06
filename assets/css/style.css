@@ -14,6 +14,7 @@ body {
     font-weight: 500;
     color: #000;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 section:not(:last-child) {
@@ -529,6 +530,10 @@ footer {
     font-weight: 500;
 }
 
+footer .footer-intro {
+    margin-bottom: 3rem;
+}
+
 footer .nav-brand {
     font-weight: 700;
     text-transform: uppercase;
@@ -565,6 +570,23 @@ footer .location h6 {
 }
 
 footer .location h6 span {
+    font-weight: 700;
+}
+
+footer .footer-copyright {
+    font-size: 0.8rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: #f3fafd;
+}
+
+footer p {
+    color: #000080;
+}
+
+footer p a {
+    color: #000080;
+    text-decoration: none;
     font-weight: 700;
 }
 
