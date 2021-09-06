@@ -569,6 +569,113 @@ nav .nav-fixed {
     margin: 1rem 3rem;
 }
 
+.curriculum-section-one {
+    padding: 5rem 0;
+    background-color: #c4f2ff;
+}
+
+.curriculum-section-one .curriculum-section-one-cards .card {
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 1rem;
+}
+
+.curriculum-section-one .curriculum-section-one-cards .card .card-head {
+    border-bottom: 0.1rem solid #000;
+    margin-bottom: 1rem;
+}
+
+.curriculum-section-one .curriculum-section-one-cards .golden-card .top-tag,
+.curriculum-section-one .curriculum-section-one-cards .diamond-card .top-tag {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+}
+
+.curriculum-section-one .curriculum-section-one-cards .golden-card .top-tag {
+    background-color: #fff952;
+}
+
+.curriculum-section-one .curriculum-section-one-cards .diamond-card .top-tag {
+    background-color: #2ecc70;
+}
+
+.curriculum-section-one .curriculum-section-one-cards .card .tier-title h4 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.curriculum-section-one
+    .curriculum-section-one-cards
+    .silver-card
+    .card
+    .tier-title
+    h4 {
+    color: #1153ac;
+}
+
+.curriculum-section-one
+    .curriculum-section-one-cards
+    .golden-card
+    .card
+    .tier-title
+    h4 {
+    color: #4fc717;
+}
+
+.curriculum-section-one
+    .curriculum-section-one-cards
+    .diamond-card
+    .card
+    .tier-title
+    h4 {
+    color: #f1a603;
+}
+
+.curriculum-section-one
+    .curriculum-section-one-cards
+    .card
+    .tier-discription
+    .sessions {
+    color: #233cff;
+}
+
+.curriculum-section-one
+    .curriculum-section-one-cards
+    .card
+    .card-discription
+    img {
+    width: 1rem;
+}
+
+.curriculum-section-one
+    .curriculum-section-one-cards
+    .card
+    .card-discription
+    ul
+    li::before {
+    content: "\2022";
+    color: #000;
+    font-weight: 900;
+    width: 1rem;
+}
+
+.curriculum-section-one
+    .curriculum-section-one-cards
+    .card
+    .card-discription
+    ul
+    li {
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
 footer {
     border-top: 0.1rem solid #000;
     padding-top: 5rem;
