@@ -14,7 +14,7 @@ body {
     font-weight: 500;
     color: #000;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow: hidden; */
 }
 
 section:not(:last-child) {
@@ -541,7 +541,7 @@ footer .nav-brand {
 }
 
 footer .nav-brand img {
-    width: 4rem;
+    width: 3.5rem;
 }
 
 footer p {
@@ -557,16 +557,8 @@ footer .icons a {
     margin: 1rem;
 }
 
-footer .location {
-    padding-left: 8rem;
-}
-
 footer .location h4 {
     font-weight: 600;
-}
-
-footer .location h6 {
-    margin-left: -2.5rem;
 }
 
 footer .location h6 span {
@@ -576,7 +568,7 @@ footer .location h6 span {
 footer .footer-copyright {
     font-size: 0.8rem;
     padding: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     background-color: #f3fafd;
 }
 
@@ -602,6 +594,10 @@ footer p a {
 
     section {
         margin-bottom: 4rem;
+    }
+
+    .section-four h2 {
+        font-size: 2.5rem;
     }
 
     .section-five .slider-container button {
@@ -636,18 +632,7 @@ footer p a {
         width: 3rem;
     }
 
-    footer .location {
-        padding-left: 1.2rem;
-    }
-
-    footer .location h4 {
-        font-weight: 600;
-    }
-
     footer .location h6 {
-        margin-left: 0;
-    }
-    footer .location .contact {
-        margin-left: 0;
+        font-size: 0.9rem;
     }
 }
