@@ -110,7 +110,7 @@ nav .nav-fixed {
 
 .section-one h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 3.7rem;
+    font-size: 3rem;
     font-weight: 900;
 }
 
@@ -382,7 +382,7 @@ nav .nav-fixed {
     border: none;
     padding: 0.5rem;
     width: 100%;
-    height: 100%;
+    height: auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     border-radius: 1rem;
 }
@@ -439,6 +439,18 @@ nav .nav-fixed {
     font-weight: 700;
 }
 
+.section-seven .silver-card .card .pricing {
+    margin-top: 4rem;
+}
+
+.section-seven .golden-card .card .pricing {
+    margin-top: 2rem;
+}
+
+.section-seven .diamond-card .card .pricing {
+    margin-top: 3rem;
+}
+
 .section-seven .card .card-discription h6 {
     color: #fff;
     max-width: fit-content;
@@ -461,26 +473,25 @@ nav .nav-fixed {
 
 .section-seven .card .card-discription .details {
     font-size: 0.8rem;
+    font-style: none;
+    text-decoration: none;
     font-weight: 500;
     color: #f59417;
 }
 
-.section-seven .silver-card .card-discription .details {
-    margin-top: 3rem;
-}
-
-.section-seven .diamond-card .card-discription .details {
-    margin-top: 2rem;
-}
-
 .section-seven .card .card-discription .price {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.section-seven .card .card-discription .price s {
     font-size: 1rem;
-    font-weight: 500;
 }
 
 .section-seven .card .card-discription .price .price-blue-tag {
     font-size: 0.7rem;
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 0.2rem;
     border-radius: 0.1rem;
     background-color: #233cff;
     color: #fff;
@@ -534,15 +545,6 @@ nav .nav-fixed {
         .section-six-button-container
         .section-six-button-overlay-container {
         background-color: rgba(255, 255, 255, 0.8);
-    }
-
-    .section-seven .card .card-discription .price {
-        font-size: 0.8rem;
-    }
-
-    .section-seven .card .card-discription .price .price-blue-tag {
-        font-size: 0.5rem;
-        padding: 0.2rem 0.4rem;
     }
 
     .section-seven .silver-card .card-discription .details {
