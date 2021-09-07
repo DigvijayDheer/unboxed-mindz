@@ -536,6 +536,22 @@ nav .nav-fixed {
     font-style: italic;
 }
 
+.section-nine .image-container {
+    position: relative;
+}
+
+.section-nine .image-container .section-nine-linkdin {
+    position: absolute;
+    top: 1rem;
+    left: 23rem;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.section-nine .image-container a:hover > .section-nine-linkdin {
+    opacity: 1;
+}
+
 .about-us-section-one .card img {
     width: 13rem;
 }
@@ -772,6 +788,13 @@ footer p a {
 
     .section-seven .diamond-card .card-discription .details {
         margin-top: 0rem;
+    }
+
+    .section-nine .image-container .section-nine-linkdin {
+        position: absolute;
+        top: 1rem;
+        left: 14rem;
+        width: 2rem;
     }
 
     .about-us-section-two .icon-box {
