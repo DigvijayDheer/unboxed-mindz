@@ -792,9 +792,9 @@ footer p a {
 
     .section-nine .image-container .section-nine-linkdin {
         position: absolute;
-        top: 1rem;
-        left: 14rem;
-        width: 2rem;
+        top: 0rem;
+        left: 17rem;
+        width: 3rem;
     }
 
     .about-us-section-two .icon-box {
