@@ -153,6 +153,7 @@ nav .nav-fixed {
 .section-seven h2,
 .section-eight h2,
 .section-nine h2,
+.section-ten h2,
 .about-us-section-one h2,
 .about-us-section-two h2 {
     font-family: "Spartan", "sans-sarif";
@@ -363,39 +364,17 @@ nav .nav-fixed {
     border-bottom-right-radius: 0.3rem;
 }
 
-.section-six .section-six-intro-container {
-    width: 100%;
-    height: auto;
-    background-image: url(../images/boy-on-books.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-}
-
-.section-six .section-six-button-container {
-    width: 100%;
-    height: auto;
-    background-image: url(../images/boy-with-laptop.svg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-}
-
-.section-six .section-six-button-container .button-box {
-    padding-top: 6rem;
-}
-
-.section-seven {
+.section-six {
     height: auto;
     padding: 5rem 0;
     background-color: #c4f2ff;
 }
 
-.section-seven .card {
+.section-six .card {
     line-height: 1rem;
 }
 
-.section-seven .card {
+.section-six .card {
     border: none;
     padding: 0.5rem;
     width: 100%;
@@ -404,91 +383,91 @@ nav .nav-fixed {
     border-radius: 1rem;
 }
 
-.section-seven .card .card-head {
+.section-six .card .card-head {
     border-bottom: 0.1rem solid #000;
     margin-bottom: 1rem;
 }
 
-.section-seven .golden-card .top-tag,
-.section-seven .diamond-card .top-tag {
+.section-six .golden-card .top-tag,
+.section-six .diamond-card .top-tag {
     font-size: 0.8rem;
     text-transform: uppercase;
     padding: 0.2rem 0.5rem;
 }
 
-.section-seven .golden-card .top-tag {
+.section-six .golden-card .top-tag {
     background-color: #fff952;
 }
 
-.section-seven .diamond-card .top-tag {
+.section-six .diamond-card .top-tag {
     background-color: #2ecc70;
 }
 
-.section-seven .card .tier-title h4 {
+.section-six .card .tier-title h4 {
     text-transform: uppercase;
     font-weight: 800;
     font-style: italic;
 }
 
-.section-seven .silver-card .card .tier-title h4 {
+.section-six .silver-card .card .tier-title h4 {
     color: #1153ac;
 }
 
-.section-seven .golden-card .card .tier-title h4 {
+.section-six .golden-card .card .tier-title h4 {
     color: #4fc717;
 }
 
-.section-seven .diamond-card .card .tier-title h4 {
+.section-six .diamond-card .card .tier-title h4 {
     color: #f1a603;
 }
 
-.section-seven .card .tier-discription p {
+.section-six .card .tier-discription p {
     font-size: 0.9rem;
     font-weight: 500;
 }
 
-.section-seven .card .tier-discription .sessions {
+.section-six .card .tier-discription .sessions {
     color: #233cff;
 }
 
-.section-seven .card .card-discription h5 {
+.section-six .card .card-discription h5 {
     font-size: 1.1rem;
     font-weight: 700;
 }
 
-.section-seven .silver-card .card .pricing {
+.section-six .silver-card .card .pricing {
     margin-top: 4rem;
 }
 
-.section-seven .golden-card .card .pricing {
+.section-six .golden-card .card .pricing {
     margin-top: 2rem;
 }
 
-.section-seven .diamond-card .card .pricing {
+.section-six .diamond-card .card .pricing {
     margin-top: 3rem;
 }
 
-.section-seven .card .card-discription h6 {
+.section-six .card .card-discription h6 {
     color: #fff;
     max-width: fit-content;
     font-size: 0.9rem;
     padding: 0.3rem 0.7rem;
 }
 
-.section-seven .golden-card .card .card-discription h6 {
+.section-six .golden-card .card .card-discription h6 {
     background-color: #1153ac;
 }
 
-.section-seven .diamond-card .card .card-discription h6 {
+.section-six .diamond-card .card .card-discription h6 {
     background-color: #4fc717;
 }
 
-.section-seven .card .card-discription .card-para {
+.section-six .card .card-discription .card-para {
     font-size: 0.85rem;
     line-height: 1.2rem;
 }
 
-.section-seven .card .card-discription .details {
+.section-six .card .card-discription .details {
     font-size: 0.8rem;
     font-style: none;
     text-decoration: none;
@@ -496,17 +475,17 @@ nav .nav-fixed {
     color: #f59417;
 }
 
-.section-seven .card .card-discription .price {
+.section-six .card .card-discription .price {
     margin-top: 1rem;
     font-size: 1.4rem;
     font-weight: 600;
 }
 
-.section-seven .card .card-discription .price s {
+.section-six .card .card-discription .price s {
     font-size: 1rem;
 }
 
-.section-seven .card .card-discription .price .price-blue-tag {
+.section-six .card .card-discription .price .price-blue-tag {
     font-size: 0.7rem;
     padding: 0.2rem 0.2rem;
     border-radius: 0.1rem;
@@ -514,33 +493,33 @@ nav .nav-fixed {
     color: #fff;
 }
 
-.section-seven .card .card-discription .offer {
+.section-six .card .card-discription .offer {
     color: #5d17eb;
     font-size: 0.75rem;
     font-weight: 500;
 }
 
-.section-seven .card .card-discription .offer-sub {
+.section-six .card .card-discription .offer-sub {
     color: #333;
     font-size: 0.65rem;
     margin-left: 10rem;
     margin-top: -1rem;
 }
 
-.section-eight table {
+.section-seven table {
     font-size: 1.1rem;
     line-height: 2.5rem;
 }
 
-.section-nine h2 span {
+.section-eight h2 span {
     font-style: italic;
 }
 
-.section-nine .image-container {
+.section-eight .image-container {
     position: relative;
 }
 
-.section-nine .image-container .section-nine-linkdin {
+.section-eight .image-container .section-eight-linkdin {
     position: absolute;
     top: 1rem;
     left: 23rem;
@@ -548,7 +527,7 @@ nav .nav-fixed {
     transition: 0.3s;
 }
 
-.section-nine .image-container a:hover > .section-nine-linkdin {
+.section-eight .image-container a:hover > .section-eight-linkdin {
     opacity: 1;
 }
 
@@ -773,24 +752,15 @@ footer p a {
         padding: 0.3rem;
     }
 
-    .section-six
-        .section-six-intro-container
-        .section-six-intro-overlay-container,
-    .section-six
-        .section-six-button-container
-        .section-six-button-overlay-container {
-        background-color: rgba(255, 255, 255, 0.8);
-    }
-
-    .section-seven .silver-card .card-discription .details {
+    .section-six .silver-card .card-discription .details {
         margin-top: 0rem;
     }
 
-    .section-seven .diamond-card .card-discription .details {
+    .section-six .diamond-card .card-discription .details {
         margin-top: 0rem;
     }
 
-    .section-nine .image-container .section-nine-linkdin {
+    .section-eight .image-container .section-eight-linkdin {
         position: absolute;
         top: 0rem;
         left: 17rem;
