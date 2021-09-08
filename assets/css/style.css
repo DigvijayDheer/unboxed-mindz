@@ -215,7 +215,7 @@ nav .nav-fixed {
 }
 
 .section-three .icon-card img {
-    width: 70%;
+    width: 6rem;
 }
 
 .section-four .section-four-left-side-card-column .horizontal-card-image,
@@ -376,7 +376,7 @@ nav .nav-fixed {
 .section-six .card {
     border: none;
     padding: 0.5rem;
-    width: 100%;
+    width: auto;
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     border-radius: 1rem;
@@ -611,7 +611,7 @@ nav .nav-fixed {
 .curriculum-section-one .curriculum-section-one-cards .card {
     border: none;
     padding: 0.5rem;
-    width: 100%;
+    width: auto;
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     border-radius: 1rem;
