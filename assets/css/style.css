@@ -365,7 +365,6 @@ nav .nav-fixed {
 }
 
 .section-six {
-    height: auto;
     padding: 5rem 0;
     background-color: #c4f2ff;
 }
@@ -435,18 +434,6 @@ nav .nav-fixed {
     font-weight: 700;
 }
 
-.section-six .silver-card .card .pricing {
-    margin-top: 4rem;
-}
-
-.section-six .golden-card .card .pricing {
-    margin-top: 2rem;
-}
-
-.section-six .diamond-card .card .pricing {
-    margin-top: 3rem;
-}
-
 .section-six .card .card-discription h6 {
     color: #fff;
     max-width: fit-content;
@@ -473,6 +460,18 @@ nav .nav-fixed {
     text-decoration: none;
     font-weight: 500;
     color: #f59417;
+}
+
+.section-six .silver-card .card .pricing {
+    margin-top: 2.8rem;
+}
+
+.section-six .golden-card .card .pricing {
+    margin-top: 1rem;
+}
+
+.section-six .diamond-card .card .pricing {
+    margin-top: 2.1rem;
 }
 
 .section-six .card .card-discription .price {
@@ -825,6 +824,12 @@ footer p a {
         width: 3rem;
     }
 
+    .section-six .silver-card .card .pricing,
+    .section-six .golden-card .card .pricing,
+    .section-six .diamond-card .card .pricing {
+        margin-top: 2rem;
+    }
+
     .section-ten .card img {
         display: block;
         margin-left: auto;
@@ -843,5 +848,83 @@ footer p a {
 
     footer .nav-brand img {
         width: 3rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .section-six .silver-card .card .pricing,
+    .section-six .golden-card .card .pricing,
+    .section-six .diamond-card .card .pricing {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .section-six .silver-card .card .pricing {
+        margin-top: 2.9rem;
+    }
+
+    .section-six .golden-card .card .pricing {
+        margin-top: 1rem;
+    }
+
+    .section-six .diamond-card .card .pricing {
+        margin-top: 2.1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .section-six .silver-card .card .pricing {
+        margin-top: 3rem;
+    }
+
+    .section-six .golden-card .card .pricing {
+        margin-top: 1rem;
+    }
+
+    .section-six .diamond-card .card .pricing {
+        margin-top: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .section-six .silver-card .card .pricing {
+        margin-top: 3.9rem;
+    }
+
+    .section-six .golden-card .card .pricing {
+        margin-top: 1rem;
+    }
+
+    .section-six .diamond-card .card .pricing {
+        margin-top: 4.3rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .section-six .silver-card .card .pricing {
+        margin-top: 1.8rem;
+    }
+
+    .section-six .golden-card .card .pricing {
+        margin-top: 1rem;
+    }
+
+    .section-six .diamond-card .card .pricing {
+        margin-top: 2.2rem;
+    }
+}
+
+@media only screen and (min-width: 2600px) {
+    .section-six .silver-card .card .pricing {
+        margin-top: 2.6rem;
+    }
+
+    .section-six .golden-card .card .pricing {
+        margin-top: 2rem;
+    }
+
+    .section-six .diamond-card .card .pricing {
+        margin-top: 3rem;
     }
 }
