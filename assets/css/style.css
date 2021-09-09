@@ -24,19 +24,16 @@ section:last-child {
     margin-bottom: 2rem;
 }
 
-button {
+.button {
     position: relative;
     overflow: hidden;
     font-weight: 700;
     border: 0 !important;
-}
-
-button a {
     color: #fff;
     text-decoration: none;
 }
 
-button a:hover {
+.button:hover {
     color: #fff;
     text-decoration: none;
 }
@@ -53,6 +50,7 @@ button a:hover {
 
 .btn-color-team {
     background-color: #5271ff !important;
+    color: #fff;
 }
 
 .sheen:after {
@@ -74,7 +72,7 @@ button a:hover {
 }
 
 .sheen:hover::after,
-button:focus::after {
+.button:focus::after {
     animation: sheen 1s forwards;
 }
 
@@ -84,14 +82,14 @@ button:focus::after {
     }
 }
 
-button:active {
+.button:active {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 3.2rem 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
         rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     transform: translate(0, 2px);
 }
 
-button:focus {
+.button:focus {
     outline: none;
     box-shadow: none;
 }
@@ -517,7 +515,7 @@ nav .nav-fixed {
     margin-top: -1rem;
 }
 
-.section-six .card button:focus {
+.section-six .card .button:focus {
     outline: none;
     box-shadow: none;
 }
@@ -547,7 +545,7 @@ nav .nav-fixed {
     opacity: 1;
 }
 
-.section-nine button:focus {
+.section-nine .button:focus {
     outline: none;
     box-shadow: none;
 }
@@ -820,7 +818,7 @@ footer p a {
         font-size: 2.5rem;
     }
 
-    .section-five .slider-container button {
+    .section-five .slider-container .button {
         font-size: 0.7rem;
         padding: 0.3rem;
     }
