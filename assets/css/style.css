@@ -51,6 +51,10 @@ button a:hover {
     color: #fff !important;
 }
 
+.btn-color-team {
+    background-color: #5271ff !important;
+}
+
 .sheen:after {
     content: "";
     position: absolute;
