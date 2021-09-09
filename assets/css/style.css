@@ -269,6 +269,10 @@ nav .nav-fixed {
     background-color: #fd972a;
 }
 
+.section-five .slider-container .left-slide .tree {
+    background-color: #002203;
+}
+
 .section-five .slider-container .right-slide .flowers {
     background-color: #faadba;
 }
@@ -283,6 +287,10 @@ nav .nav-fixed {
 
 .section-five .slider-container .right-slide .eagle {
     background-color: #ffb866;
+}
+
+.section-five .slider-container .right-slide .tree {
+    background-color: #005307a1;
 }
 
 .section-five .slider-container .left-slide {
