@@ -50,7 +50,7 @@ section:last-child {
 
 .btn-color-team {
     background-color: #5271ff !important;
-    color: #fff;
+    color: #fff !important;
 }
 
 .sheen:after {
@@ -89,6 +89,7 @@ section:last-child {
     transform: translate(0, 2px);
 }
 
+button:focus,
 .button:focus {
     outline: none;
     box-shadow: none;
@@ -96,9 +97,12 @@ section:last-child {
 
 nav {
     text-transform: uppercase;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 500;
-    margin-bottom: 1rem;
+}
+
+nav li a.button {
+    text-transform: capitalize;
 }
 
 nav img {
@@ -107,7 +111,7 @@ nav img {
 
 nav .nav-brand {
     font-weight: 700;
-    font-size: 1.6rem !important;
+    font-size: 1.5rem !important;
 }
 
 nav .nav-fixed {
