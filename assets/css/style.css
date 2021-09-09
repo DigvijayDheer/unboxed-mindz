@@ -711,6 +711,10 @@ nav .nav-fixed {
 }
 
 footer {
+    background-image: url(../images/map.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-top: 0.1rem solid #000;
     padding-top: 5rem;
     font-weight: 500;
